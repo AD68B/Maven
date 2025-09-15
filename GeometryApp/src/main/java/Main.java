@@ -1,8 +1,7 @@
-import com.geometry.core.Shape;
-import com.geometry.core.Circle;
-import com.geometry.core.Rectangle;
-import com.geometry.three_dimensional.Cube;
-import com.geometry.three_dimensional.Sphere;
+import com.geometry.figures.Circle;
+import com.geometry.figures.Rectangle;
+import com.geometry.three_dimensional.figures.Cube;
+import com.geometry.three_dimensional.figures.Sphere;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,3 +18,4 @@ public class Main {
         System.out.println("Площадь поверхности сферы: " + sphere.calculateSurfaceArea());
     }
 }
+
